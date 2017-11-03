@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+body { font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; max-width:1540px; }
+/*tr:hover {background-color: #f5f5f5}*/
+
+#container { margin: 0 auto;
+			width: 100%;
+			background: #3616A5;
+}
+
+#header {
+	background-color:#A7CD3A;
+	background-image:url("https://imgur.com/byS5Vr4.png?") ;
+	background-repeat: no-repeat;
+	background-position:center left;
+	padding: 50px;
+}
+
+#menu {
+	float: left;
+	width: 100%;
+	background-color: #A7CD3A;
+	
+}
+
+#menu ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+
+
+#menu li a {
+	display: block;
+	text-decoration: none;
+	border-right: 2px solid #FFFFFF;
+	padding: 3px 10px;
+	float: left;
+	color: #000000;
+}
+
+#menu li a:hover {
+	background-color:#FFFFFF;
+}
+
+
+#menu2 {
+	float: left;
+	width: 100%;
+	background-color: #A7CD3A;
+	
+}
+
+#menu2 ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+
+
+#menu2 li a {
+	display: block;
+	text-decoration: none;
+	border-right: 2px solid #FFFFFF;
+	padding: 3px 10px;
+	float: left;
+	color: #000000;
+}
+
+#menu2 li a:hover {
+	background-color:#FFFFFF;
+}
+
+
+#maincontainer {
+			float: left;
+			width: 100%;
+}
+
+#content {
+	clear: left;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 5px;
+	padding-bottom: 20px;
+	float: left;
+	width: 65%;
+	display: inline;
+}
+
+
+#contentA {
+	clear: left;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 100px;
+	padding-bottom: 20px;
+	float: left;
+	width: 90%;
+	display: inline;
+}
+
+#contentO {
+	clear: center;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-left: 5px;
+	padding-bottom: 20px;
+	float: center;
+	width: 65%;
+	display: inline;
+}
+
+
+#sidebarV {
+	float: right;
+	width: 30%;
+	padding: 200px 0;
+	margin: 0;
+	display: inline;
+	background-color: #A7CD3A;
+	background-image: url("https://i.imgur.com/A72qQdv.png?1");
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#sidebarT {
+	float: right;
+	width: 30%;
+	padding: 200px 0;
+	margin: 0;
+	display: inline;
+	background-color: #A7CD3A;
+	background-image: url("https://i.imgur.com/2fwOihY.png?");
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#sidebarJ {
+	float: right;
+	width: 30%;
+	padding: 200px 0;
+	margin: 0;
+	display: inline;
+	background-color: #A7CD3A;
+	background-image: url("https://i.imgur.com/xEiHqpB.png?1");
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#sidebarG {
+	float: right;
+	width: 30%;
+	padding: 200px 0;
+	margin: 0;
+	display: inline;
+	background-color: #A7CD3A;
+	background-image: url("https://i.imgur.com/76HDhVw.png?2");
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#sidebarO {
+	float: right;
+	width: 30%;
+	padding: 200px 0;
+	margin: 0;
+	display: inline;
+	background-color: #A7CD3A;
+	background-image: url("#");
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#footer {
+	clear: left;
+	background-color: #A7CD3A;
+	text-align: center;
+	padding: 20px;
+	height: 1%
+}
+
+.form-field {
+	clear: both;
+	padding: 10px;
+	width: 350px;
+}
+
+.form-field label {
+	float: left;
+	width: 250px;
+	text-align: right;
+}
+
+.form-field input {
+	float: right;
+	width: 150px;
+	text-align: left;
+}
+
+#submit {
+	text-align:center;
+}
